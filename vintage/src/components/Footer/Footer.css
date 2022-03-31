@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+.__footer {
+  background: #4b4b4a;
+  width: 100vw;
+  height: 35vh;
+  bottom: 0px;
+  color: #fcfbf8;
+  text-decoration-line: underline;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.__footer-logo {
+  left: 10.83%;
+  right: 68.36%;
+  top: 24.77%;
+  bottom: 24.61%;
+  margin-top: 50px;
+  margin-left: 5vw;
+}
+.__footer-logo ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.__footer-logo ul li a {
+  text-decoration: none;
+  color: #fcfbf8;
+}
+
+.__footer-logo ul li a:hover {
+  color: #f6db8e;
+}
+
+.list-footer {
+  display: flex;
+}
+
+.list-footer ul li {
+  font-family: "Spartan";
+  list-style: none;
+  padding-top: 25px;
+  padding-left: 7vw;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.001em;
+}
+
+.list-footer ul li a {
+  text-decoration: none;
+  color: #fcfbf8;
+  white-space: nowrap;
+}
+
+.list-footer ul li a:hover {
+  color: #f6db8e;
+}
+
+.__title {
+  font-family: "Spartan";
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: 0.001em;
+}
+
+.icons ul {
+  position: relative;
+  right: 10vw;
+  bottom: -3vh;
+  padding: 50px;
+  display: flex;
+  list-style: none;
+}
+
+.icons ul li {
+  padding-right: 43px;
+}
+
+.icons ul li:hover {
+  transform: scale(1.2);
+}
+
+#redes {
+  margin-top: 50px;
+  position: absolute;
+  right: 8vw;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  white-space: nowrap;
+}

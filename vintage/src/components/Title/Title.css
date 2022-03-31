@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Spartan:wght@700&display=swap");
+
+#__title-text {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #f6db8e;
+  white-space: nowrap;
+  position: relative;
+  left: 10vw;
+}
