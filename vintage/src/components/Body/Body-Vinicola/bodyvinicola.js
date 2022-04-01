@@ -12,6 +12,7 @@ import { EventosContainer } from './styles'
 import { ButtonDetalhes } from './styles'
 import { Agendar } from './styles'
 import { Formulario } from './styles'
+import { ButtonFormVinicola } from './styles'
 
 function BodyVinicola() {
   return (
@@ -102,13 +103,12 @@ function BodyVinicola() {
       <Agendar>
         <h1></h1>
         <Formulario>
-          <ul>
-            <li>
-              <input></input>
-              <input></input>
-              <input></input>
-            </li>
-          </ul>
+          <li>
+            <input></input>
+            <input></input>
+            <input placeholder="Opcional"></input>
+            <ButtonFormVinicola>Enviar</ButtonFormVinicola>
+          </li>
         </Formulario>
       </Agendar>
     </Vinicola>

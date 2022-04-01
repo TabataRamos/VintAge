@@ -1,6 +1,6 @@
 import Header from '../../components/Header/Header'
 import Banner from '../../components/Banner/Banner'
-import BodyVinicola from '../../components/Body-Vinicola/bodyvinicola'
+import BodyVinicola from '../../components/Body/Body-Vinicola/bodyvinicola'
 import Footer from '../../components/Footer/Footer'
 
 function Vinicola() {

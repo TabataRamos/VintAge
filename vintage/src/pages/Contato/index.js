@@ -1,7 +1,7 @@
-import Header from "../../components/Header/Header";
-import Banner from "../../components/Banner/Banner";
-import Body from "../../components/Body/Body";
-import Footer from "../../components/Footer/Footer";
+import Header from '../../components/Header/Header'
+import Banner from '../../components/Banner/Banner'
+import BodyContato from '../../components/Body/Body-Contato/bodycontato'
+import Footer from '../../components/Footer/Footer'
 
 function Contato() {
   return (
@@ -11,11 +11,11 @@ function Contato() {
         <Banner imagem="contato" logo="logo-hidden" />
       </div>
       <div>
-        <Body />
+        <BodyContato />
       </div>
       <Footer />
     </>
-  );
+  )
 }
 
-export default Contato;
+export default Contato

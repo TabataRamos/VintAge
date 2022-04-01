@@ -13,4 +13,5 @@ export const EventosHeader = styled.div``
 export const EventosContainer = styled.div``
 export const ButtonDetalhes = styled.div``
 export const Agendar = styled.div``
-export const Formulario = styled.div``
+export const Formulario = styled.ul``
+export const ButtonFormVinicola = styled.button``
