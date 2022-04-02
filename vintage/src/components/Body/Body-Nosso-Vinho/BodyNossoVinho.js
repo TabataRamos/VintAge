@@ -1,14 +1,16 @@
-import { NossoVinho } from './styles'
-import { Filtro } from './styles'
-import { FacaTeste } from './styles'
-import { ParagrafoDescubra } from './styles'
-import { ButtonFTeste } from './styles'
-import { AnatomiaVintage } from './styles'
-import { Rotulos } from './styles'
-import { Selos } from './styles'
-import { SeloContainer } from './styles'
-import { SelosImagens } from './styles'
-import { SeloParagrafo } from './styles'
+import {
+  NossoVinho,
+  Filtro,
+  FacaTeste,
+  ParagrafoDescubra,
+  ButtonFTeste,
+  AnatomiaVintage,
+  Rotulos,
+  Selos,
+  SeloContainer,
+  SelosImagens,
+  SeloParagrafo
+} from './styles'
 
 function BodyNossoVinho() {
   return (

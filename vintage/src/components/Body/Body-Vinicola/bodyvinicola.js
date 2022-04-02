@@ -1,18 +1,20 @@
-import { Vinicola } from './styles'
-import { VinicolaHeader1 } from './styles'
-import { VinicolaHeader2 } from './styles'
-import { VinicolaInfo1 } from './styles'
-import { VinicolaInfo2 } from './styles'
-import { Visitacao } from './styles'
-import { VisitacaoContainer } from './styles'
-import { ButtonAgendar } from './styles'
-import { Eventos } from './styles'
-import { EventosHeader } from './styles'
-import { EventosContainer } from './styles'
-import { ButtonDetalhes } from './styles'
-import { Agendar } from './styles'
-import { Formulario } from './styles'
-import { ButtonFormVinicola } from './styles'
+import {
+  Vinicola,
+  VinicolaHeader1,
+  VinicolaHeader2,
+  VinicolaInfo1,
+  VinicolaInfo2,
+  Visitacao,
+  VisitacaoContainer,
+  ButtonAgendar,
+  Eventos,
+  EventosHeader,
+  EventosContainer,
+  ButtonDetalhes,
+  Agendar,
+  Formulario,
+  ButtonFormVinicola
+} from './styles'
 
 function BodyVinicola() {
   return (

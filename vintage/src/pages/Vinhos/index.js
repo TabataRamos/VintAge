@@ -1,6 +1,5 @@
 import Header from '../../components/Header/Header'
 import Banner from '../../components/Banner/Banner'
-import Body from '../../components/Body/Body'
 import Footer from '../../components/Footer/Footer'
 import { useEffect, useState } from 'react'
 import { instance } from '../../services/api'
