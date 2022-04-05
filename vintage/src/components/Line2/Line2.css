@@ -1,4 +1,14 @@
-.__line-2 {
+.line-40 {
+  margin: 5vh 0;
+  width: 40vw;
+}
+
+.line-60 {
+  margin: 5vh 0;
+  width: 60vw;
+}
+
+.line-100 {
   margin: 5vh 0;
   width: 100vw;
 }

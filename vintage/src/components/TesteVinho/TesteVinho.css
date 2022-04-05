@@ -1,0 +1,48 @@
+.__section {
+  position: relative;
+  display: block;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+
+  left: 20vw;
+}
+
+.__TesteVinho {
+  display: block;
+  background-image: url(/src/assets/images/Teste.png);
+  background-repeat: no-repeat;
+  width: 70vw;
+  height: 70vh;
+
+  background-position: center;
+}
+
+.__TesteVinho a {
+  text-decoration: none;
+}
+
+.__TesteVinho h3,
+h2 {
+  font-family: "Spartan";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 0.001em;
+
+  color: #fcfbf8;
+}
+
+.__TesteVinho h2 {
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+
+.__TesteVinho-text {
+  width: 300px;
+  position: relative;
+  top: 15%;
+  left: 15%;
+
+  align-items: center;
+}

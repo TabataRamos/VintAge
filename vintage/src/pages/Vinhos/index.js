@@ -37,7 +37,7 @@ function Vinhos() {
       <div>
         <Filter />
       </div>
-      <Line2 />
+      <Line2 lineNumber="line-100" />
       <div className="__catalogo">
         {vinhos.map((vinho) => {
           return (

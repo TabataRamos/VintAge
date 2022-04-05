@@ -1,4 +1,10 @@
 .filtro-tipo {
   display: flex;
   margin-left: 10vw;
+  margin-top: 5vh;
+  margin-right: 5vw;
+}
+
+.filtro-tipo a {
+  text-decoration: none;
 }

@@ -3,6 +3,7 @@ import ButtonFull from "../ButtonFull/ButtonFull";
 import Title from "../Title/Title";
 import "./Filter.css";
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 
 function Filter(props) {
   return (
@@ -30,8 +31,10 @@ function Filter(props) {
           icon={<Icon icon="mdi:glass-flute" color="#fff3d0" height="24" />}
         ></ButtonOpen>
       </div>
-      <div>
-        <ButtonFull text="Ver Todos"></ButtonFull>
+      <div className="filtro-tipo">
+        <Link to="/nossos-vinhos/todos">
+          <ButtonFull text="Ver Todos"></ButtonFull>
+        </Link>
       </div>
     </div>
   );

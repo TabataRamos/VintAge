@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Spartan:wght@300;400;700&display=swap");
+
+.__Rotulos-text {
+  margin-top: 3vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.__Rotulos-text ul {
+  padding: 25px;
+  margin: 0 2vw;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li p::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #fcfbf8; /* Change the color */
+  font-weight: 400; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em;
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.__Rotulos-text p {
+  color: #fcfbf8;
+  text-align: left;
+  font-family: "Spartan";
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  white-space: normal;
+
+  letter-spacing: 0.0015em;
+  color: #fcfbf8;
+  list-style-position: inside;
+}
+
+.selos img {
+  display: block;
+}
