@@ -8,6 +8,7 @@ import { instance } from "../../services/api";
 import "./styles.css";
 import Title from "../../components/Title/Title";
 import Line2 from "../../components/Line2/Line2";
+import { Link } from "react-router-dom";
 
 function Vinhos() {
   const [vinhos, setVinhos] = useState([]);
@@ -38,11 +39,11 @@ function Vinhos() {
           return (
             <div className="__vinho">
               <div key={vinho.id}>
-                <a href="#">
+                <Link to={`/vinhos/${vinho.id}`}>
                   <img src={vinho.link_foto} alt={vinho.Uva.nome_uva}></img>
                   <h4>Vintage {vinho.Uva.nome_uva}</h4>
                   <p>{vinho.Tipo.nome_tipo}</p>
-                </a>
+                </Link>
               </div>
             </div>
           );
