@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+.__ButtonOpen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 182px;
+  height: 60px;
+  border: 2px solid #e5cb7f;
+  border-radius: 40px;
+  background-color: #1a1a19;
+
+  margin: 5vh 5vw 1vh 0;
+  cursor: pointer;
+}
+
+.__ButtonOpen p {
+  font-family: "Spartan";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0.001em;
+  color: #f6db8e;
+  align-items: center;
+  text-align: center;
+}
+
+.__ButtonOpen a {
+  padding-right: 8px;
+}

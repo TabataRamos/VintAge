@@ -8,6 +8,7 @@ import { instance } from "../../services/api";
 import "./styles.css";
 import Title from "../../components/Title/Title";
 import Line2 from "../../components/Line2/Line2";
+import Filter from "../../components/Filter/Filter";
 
 function Vinhos() {
   const [vinhos, setVinhos] = useState([]);
@@ -32,6 +33,9 @@ function Vinhos() {
       </div>
       <Body></Body>
       <Title text="Todos" />
+      <div>
+        <Filter />
+      </div>
       <Line2 />
       <div className="__catalogo">
         {vinhos.map((vinho) => {

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+.__ButtonFull {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+
+  width: 191px;
+  height: 55.36px;
+
+  background: #f6db8e;
+  border-radius: 40px;
+
+  margin: 5vh 10vw;
+  cursor: pointer;
+}
+
+.__ButtonFull p {
+  font-family: "Spartan";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0.001em;
+  color: #1a1a19;
+}

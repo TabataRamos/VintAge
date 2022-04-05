@@ -38,9 +38,9 @@ p {
 
   white-space: nowrap;
 
-  animation-name: moveInBottom;
+  /* animation-name: moveInBottom;
   animation-duration: 3s;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-out; */
 }
 
 .__catalogo p {
