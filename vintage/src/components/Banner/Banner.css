@@ -25,6 +25,10 @@
   background-image: url(/src/assets/images/Banner-Vinicola.png);
 }
 
+.todosVinhos {
+  background-image: url(/src/assets/images/Banner-TodosVinhos.png);
+}
+
 .logo-visible {
   position: absolute;
   width: 400px;

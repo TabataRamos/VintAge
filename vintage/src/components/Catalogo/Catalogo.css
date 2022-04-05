@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Spartan:wght@700&display=swap");
+
+.__catalogo {
+  max-width: 70vw;
+  margin: 5vh auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10vw 20vw;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.__vinho {
+  min-width: 20vw;
+}
+
+.__catalogo a {
+  text-decoration: none;
+}
+
+.__catalogo h4,
+p {
+  color: #f6db8e;
+
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+
+  align-items: center;
+  text-align: center;
+
+  white-space: nowrap;
+
+  animation-name: moveInBottom;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+.__catalogo p {
+  font-size: 20px;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
