@@ -5,6 +5,7 @@ import Contato from "./pages/Contato";
 import Vinicola from "./pages/Vinicola";
 import Vinhos from "./pages/Vinhos";
 import DetalheVinho from "./pages/DetalheVinho";
+import NossosVinhos from "./pages/NossosVinhos";
 
 function Routes() {
   return (
@@ -13,8 +14,9 @@ function Routes() {
         <Route path="/" element={<Home />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/vinicola" element={<Vinicola />} />
-        <Route path="/vinhos" element={<Vinhos />} />
-        <Route path="/vinhos/:id" element={<DetalheVinho />} />
+        <Route path="/nossos-vinhos" element={<NossosVinhos />} />
+        <Route path="/nossos-vinhos/todos" element={<Vinhos />} />
+        <Route path="/nossos-vinhos/:id" element={<DetalheVinho />} />
       </RoutesWrapper>
     </BrowserRouter>
   );
