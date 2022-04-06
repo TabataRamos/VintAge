@@ -23,7 +23,7 @@ export default function FiltroTipo() {
       }
     }
     getVinho();
-  }, [params]);
+  }, [params.tipo]);
   return (
     <>
       <div>

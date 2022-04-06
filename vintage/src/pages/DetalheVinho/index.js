@@ -23,7 +23,7 @@ export default function DetalheVinho() {
       }
     }
     getVinho();
-  }, [params]);
+  }, [params.id]);
   return (
     <>
       <div>
