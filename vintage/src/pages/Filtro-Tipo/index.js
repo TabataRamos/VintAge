@@ -30,7 +30,7 @@ export default function FiltroTipo() {
     <>
       <div>
         <Header />
-        {/* <Banner imagem="contato" logo="logo-hidden"></Banner> */}
+        <Banner imagem={params.tipo} logo="logo-hidden"></Banner>
       </div>
       <Body></Body>
       <div>
