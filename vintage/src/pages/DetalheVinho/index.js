@@ -4,20 +4,17 @@ import { instance } from "../../services/api";
 import Banner from "../../components/Banner/Banner";
 import Header from "../../components/Header/Header";
 import Body from "../../components/Body/Body";
-import Title from "../../components/Title/Title";
 import Line2 from "../../components/Line2/Line2";
 import Footer from "../../components/Footer/Footer";
-import FilterDrop from "../../components/FilterDrop/FilterDrop";
 
 export default function DetalheVinho() {
-  const [selected, setSelected] = useState("Filtrar por Tipo");
   const params = useParams();
   const [vinhos, setVinho] = useState([]);
 
   useEffect(() => {
     async function getVinho() {
       try {
-        const response = await instance.get(`/vinhos/${params.id}`);
+        const response = await instance.get(`/vinho/${params.id}`);
         setVinho(response.data);
       } catch (error) {
         console.error(error);
@@ -31,13 +28,8 @@ export default function DetalheVinho() {
         <Header />
         <Banner imagem={`${params.id}`} logo="logo-hidden"></Banner>
         <Body></Body>
-        <Title text={params.id} />
-        <div>
-          <FilterDrop selected={selected} setSelected={setSelected} />
-        </div>
         <Line2 lineNumber="line-100" />
       </div>
-
       <div className="__catalogo">
         {vinhos.map((vinho) => {
           return (
@@ -51,7 +43,6 @@ export default function DetalheVinho() {
           );
         })}
       </div>
-
       <Footer />
     </>
   );
