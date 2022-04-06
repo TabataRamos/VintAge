@@ -1,0 +1,31 @@
+.__imgText {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  display: flex;
+  color: #fff;
+}
+
+.__imgText img {
+  width: 100vw;
+  height: 80vh;
+}
+
+.__imgText p {
+  color: #fcfbf8;
+  text-align: left;
+  font-family: "Spartan";
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  white-space: normal;
+
+  letter-spacing: 0.0015em;
+  color: #fcfbf8;
+  list-style-position: inside;
+
+  display: inline-block;
+  white-space: normal;
+  margin-right: 20%;
+  padding-left: 5vw;
+}

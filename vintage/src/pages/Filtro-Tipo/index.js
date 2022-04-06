@@ -7,6 +7,7 @@ import Body from "../../components/Body/Body";
 import Title from "../../components/Title/Title";
 import Line2 from "../../components/Line2/Line2";
 import Footer from "../../components/Footer/Footer";
+import Filter from "../../components/Filter/Filter";
 
 export default function FiltroTipo() {
   const params = useParams();
@@ -27,11 +28,13 @@ export default function FiltroTipo() {
     <>
       <div>
         <Header />
-        <Banner imagem={params.tipo} logo="logo-hidden" />
+        {/* <Banner imagem="contato" logo="logo-hidden"></Banner> */}
       </div>
       <Body></Body>
-      <Title text={params.tipo} />
-      <Line2 />
+      <div>
+        <Filter />
+      </div>
+      <Line2 lineNumber="line-100" />
       <div className="__catalogo">
         {vinhos.map((vinho) => {
           return (

@@ -42,3 +42,12 @@ ul li p::before {
 .selos img {
   display: block;
 }
+
+.selos-paragrafo {
+  position: relative;
+  left: 20vw;
+  bottom: 40vh;
+  margin-bottom: -20vh;
+  white-space: normal;
+  margin-right: 15vw;
+}

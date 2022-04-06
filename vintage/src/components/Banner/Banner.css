@@ -1,8 +1,9 @@
 .__banner {
+  background-image: url(/src/assets/images/Banner-Detalhes.png);
   background-repeat: no-repeat;
   position: absolute;
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -27,6 +28,26 @@
 
 .todosVinhos {
   background-image: url(/src/assets/images/Banner-TodosVinhos.png);
+}
+
+.tintos {
+  background-image: url(/src/assets/images/Banner-Tintos.png);
+}
+
+.brancos {
+  background-image: url(/src/assets/images/Banner-Brancos.png);
+}
+
+.roses {
+  background-image: url(/src/assets/images/Banner-Rosés.png);
+}
+
+.espumantes {
+  background-image: url(/src/assets/images/Banner-Espumantes.png);
+}
+
+.__1 {
+  background-image: url(/src/assets/images/Banner-Unico.png);
 }
 
 .logo-visible {

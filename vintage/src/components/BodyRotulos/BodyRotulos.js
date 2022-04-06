@@ -51,6 +51,7 @@ function BodyRotulos(props) {
             alt="logo"
           ></img>
         </div>
+        <div className="selos-paragrafo">
         <p>
           O selo fica no topo do vinho, por cima do lacre de cera ou de
           alúminio. O selo é um costume antigo da vinícola, a necessidade de sua
@@ -60,6 +61,7 @@ function BodyRotulos(props) {
           e o selo preto (geralmente numerado) é colocado nos vinhos de produção
           limitada, como os vinhos reserva.
         </p>
+        </div>
       </div>
     </div>
   );
