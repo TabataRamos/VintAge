@@ -8,6 +8,7 @@ import Title from "../../components/Title/Title";
 import Line2 from "../../components/Line2/Line2";
 import Footer from "../../components/Footer/Footer";
 import FilterDrop from "../../components/FilterDrop/FilterDrop";
+import { Link } from "react-router-dom";
 
 export default function DetalheVinho() {
   const [selected, setSelected] = useState("Filtrar por Tipo");
@@ -43,9 +44,11 @@ export default function DetalheVinho() {
           return (
             <div className="__vinho">
               <div key={vinho.id}>
-                <img src={vinho.link_foto} alt={vinho.Uva.nome_uva}></img>
-                <h4>Vintage {vinho.Uva.nome_uva}</h4>
-                <p>{vinho.Tipo.nome_tipo}</p>
+                <Link to={`/nossos-vinhos/${vinho.id}`}>
+                  <img src={vinho.link_foto} alt={vinho.Uva.nome_uva}></img>
+                  <h4>Vintage {vinho.Uva.nome_uva}</h4>
+                  <p>{vinho.Tipo.nome_tipo}</p>
+                </Link>
               </div>
             </div>
           );

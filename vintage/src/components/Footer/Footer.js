@@ -31,19 +31,19 @@ function Footer() {
           </ul>
           <ul>
             <li className="__title">
-              <Link to="/vinho">Nossos Vinhos</Link>
+              <Link to="/nossos-vinhos">Nossos Vinhos</Link>
             </li>
             <li>
-              <a href="#">Tintos</a>
+              <Link to="/nossos-vinhos/tintos">Tintos</Link>
             </li>
             <li>
-              <a href="#">Brancos</a>
+              <Link to="/nossos-vinhos/brancos">Brancos</Link>
             </li>
             <li>
-              <a href="#">Rosés</a>
+              <Link to="/nossos-vinhos/roses">Rosés</Link>
             </li>
             <li>
-              <a href="#">Espumantes</a>
+              <Link to="/nossos-vinhos/espumantes">Espumantes</Link>
             </li>
           </ul>
           <ul>
@@ -58,12 +58,10 @@ function Footer() {
           </ul>
         </div>
         <div className="icons">
-          <ul>
-            <li id="redes">Redes Socias:</li>
-          </ul>
+          <p id="redes">Redes Socias:</p>
           <ul>
             <li>
-              <a href="#">
+              <a href="https://www.instagram.com/vintage.vinic/">
                 <Icon
                   icon="akar-icons:instagram-fill"
                   color="#fcfbf8"
@@ -72,7 +70,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://twitter.com/VintageVinicola">
                 <Icon
                   icon="icon-park-outline:twitter"
                   color="#fcfbf8"
@@ -81,7 +79,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.tiktok.com/@vintage.vinic?lang=pt-BR">
                 <Icon icon="bi:tiktok" color="#fcfbf8" height="32" />
               </a>
             </li>
