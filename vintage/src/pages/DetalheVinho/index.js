@@ -7,9 +7,10 @@ import Body from "../../components/Body/Body";
 import Title from "../../components/Title/Title";
 import Line2 from "../../components/Line2/Line2";
 import Footer from "../../components/Footer/Footer";
-import Filter from "../../components/Filter/Filter";
+import FilterDrop from "../../components/FilterDrop/FilterDrop";
 
 export default function DetalheVinho() {
+  const [selected, setSelected] = useState("Filtrar por Tipo");
   const params = useParams();
   const [vinhos, setVinho] = useState([]);
 
@@ -32,7 +33,7 @@ export default function DetalheVinho() {
         <Body></Body>
         <Title text={params.id} />
         <div>
-          <Filter />
+          <FilterDrop selected={selected} setSelected={setSelected} />
         </div>
         <Line2 lineNumber="line-100" />
       </div>

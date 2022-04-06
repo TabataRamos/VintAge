@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Spartan:wght@300;400;700&display=swap");
+.container {
+  width: 100%;
+  height: 100vh;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dropdown {
+  width: 400px;
+  user-select: none;
+  margin: 3vh 10vw;
+  position: relative;
+}
+
+.dropdown .dropdown-btn {
+  border-radius: 4px;
+  padding: 15px 20px;
+  background: #f6db8e;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  color: #333;
+  width: 95%;
+}
+
+.dropdown .dropdown-content .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dropdown .dropdown-content a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: inherit;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+  background-color: #f4f4f4;
+}

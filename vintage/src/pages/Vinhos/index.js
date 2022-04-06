@@ -10,8 +10,10 @@ import Title from "../../components/Title/Title";
 import Line2 from "../../components/Line2/Line2";
 import { Link } from "react-router-dom";
 import Filter from "../../components/Filter/Filter";
+import FilterDrop from "../../components/FilterDrop/FilterDrop";
 
 function Vinhos() {
+  const [selected, setSelected] = useState("Filtrar por Tipo");
   const [vinhos, setVinhos] = useState([]);
 
   useEffect(() => {
@@ -35,7 +37,7 @@ function Vinhos() {
       <Body></Body>
       <Title text="Todos" />
       <div>
-        <Filter />
+        <FilterDrop selected={selected} setSelected={setSelected} />
       </div>
       <Line2 lineNumber="line-100" />
       <div className="__catalogo">

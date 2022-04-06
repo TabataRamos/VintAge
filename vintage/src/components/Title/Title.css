@@ -10,4 +10,5 @@
   position: relative;
   left: 10vw;
   margin-top: 5vh;
+  text-transform: capitalize;
 }
