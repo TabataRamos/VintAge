@@ -18,7 +18,7 @@ export default function DetalheVinho() {
     2: "icon-park-outline:chicken-leg",
     3: "tabler:meat",
     4: "tabler:meat",
-    5: "tabler:meat",
+    5: "icon-park-outline:chicken-leg",
     7: "tabler:sausage",
     8: "bx:cheese",
     9: "bx:cheese",
@@ -27,7 +27,7 @@ export default function DetalheVinho() {
     12: "ion:fish-outline",
     13: "fa6-solid:shrimp",
     14: "tabler:mushroom",
-    15: "tabler:mushroom",
+    15: "icon-park-outline:french-fries",
     17: "ri:cake-3-line",
   };
   useEffect(() => {
@@ -83,16 +83,11 @@ export default function DetalheVinho() {
                 </div>
                 <ButtonOpen text="Baixar Ficha Técnica"></ButtonOpen>
                 <h4>
-                  <Icon
-                    icon="mdi:fruit-grapes-outline"
-                    color="#F6DB8E"
-                    height="60"
-                  />
+                  <Icon icon="mdi:fruit-grapes-outline" color="#F6DB8E" height="60" />
                   Uva: {vinho.Uva.nome_uva}
                 </h4>
                 <h4>
-                  <Icon icon="bxs:wine" color="#F6DB8E" height="60" /> Tipo:{" "}
-                  {vinho.Tipo.nome_tipo}
+                  <Icon icon="bxs:wine" color="#F6DB8E" height="60" /> Tipo: {vinho.Tipo.nome_tipo}
                 </h4>
               </div>
             </div>
