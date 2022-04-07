@@ -44,11 +44,6 @@
   display: flex;
 }
 
-.img-end {
-  align-content: flex-end;
-  display: flex;
-}
-
 .vinicola-info-dois p {
   font-family: 'Spartan';
   font-style: normal;
@@ -72,10 +67,6 @@
   margin-left: 10vw;
   margin-top: 3.5vw;
   margin-bottom: 3vw;
-}
-
-.visitacao-container-um {
-  display: flex;
 }
 
 .container-um {
@@ -127,10 +118,6 @@
   margin-left: 10vw;
   margin-top: 3.5vw;
   margin-bottom: 3vw;
-}
-
-.img-evento {
-  margin-left: 14vw;
 }
 
 .eventos-header h2 {

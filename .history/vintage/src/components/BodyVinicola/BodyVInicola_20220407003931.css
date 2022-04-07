@@ -74,10 +74,6 @@
   margin-bottom: 3vw;
 }
 
-.visitacao-container-um {
-  display: flex;
-}
-
 .container-um {
   text-align: justify;
   font-size: 57px;
@@ -127,10 +123,6 @@
   margin-left: 10vw;
   margin-top: 3.5vw;
   margin-bottom: 3vw;
-}
-
-.img-evento {
-  margin-left: 14vw;
 }
 
 .eventos-header h2 {

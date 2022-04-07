@@ -15,7 +15,7 @@ function BodyVinicola() {
         <Line2 lineNumber="line-50"></Line2>
       </div>
       <div className="vinicola-info">
-        <img src={require('../../assets/images/vinicola-1.png')}></img>
+        <img src={require('../../assets/images/vinicola_2.svg')}></img>
         <p>
           Ao norte dos vinhedos está o <br />
           casarão. A antiga casa da família foi <br />
@@ -30,9 +30,10 @@ function BodyVinicola() {
           antepassados foi passado de <br />
           geração em geração.
         </p>
+        <Line2 lineNumber="line-50-end"></Line2>
       </div>
-      <Line2 lineNumber="line-60-end"></Line2>
       <div className="vinicola-info-dois">
+        <src />
         <p>
           Nossos barris de maturação ficam em <br />
           uma construção subterrânea que se <br />
@@ -40,43 +41,34 @@ function BodyVinicola() {
           família até próximo a estrada dos <br />
           vinhedos.
         </p>
-        <img
-          className="img-end"
-          src={require('../../assets/images/vinicola-2.png')}
-        ></img>
       </div>
       <Line2 lineNumber="line-100"></Line2>
       <div className="visitacao">
         <h1>Visitação</h1>
         <div className="visitacao-container-um">
-          <img src={require('../../assets/images/vinicola-3.png')}></img>
-          <div>
-            <p className="container-um">
-              Que tal observar <br />
-              um lindo por-do- <br />
-              sol enquanto <br />
-              aprecia um bom <br />
-              vinho?
-            </p>
-            <p className="container-dois">
-              Nosso salão de jantar e jardim com <br />
-              vista para o vinhedo estão abertos <br />
-              para visitação agendada.
-            </p>
-            <button className="button-agende">
-              {' '}
-              <p>Agende sua visita</p>
-            </button>
-          </div>
+          <src />
+          <p className="container-um">
+            Que tal observar <br />
+            um lindo por-do- <br />
+            sol enquanto <br />
+            aprecia um bom <br />
+            vinho?
+          </p>
+          <p className="container-dois">
+            Nosso salão de jantar e jardim com <br />
+            vista para o vinhedo estão abertos <br />
+            para visitação agendada.
+          </p>
+          <button className="button-agende">
+            {' '}
+            <p>Agende sua visita</p>
+          </button>
         </div>
         <Line2 lineNumber="line-100"></Line2>
       </div>
       <div className="eventos">
         <div className="eventos-header">
-          <img
-            className="img-evento"
-            src={require('../../assets/images/vinicola-4.png')}
-          ></img>
+          <src />
           <h1>Eventos</h1>
           <h2>
             Sazonalmente nós promovemos eventos de degustação e cursos para

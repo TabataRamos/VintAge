@@ -63,20 +63,17 @@ function BodyVinicola() {
               vista para o vinhedo estão abertos <br />
               para visitação agendada.
             </p>
-            <button className="button-agende">
-              {' '}
-              <p>Agende sua visita</p>
-            </button>
           </div>
+          <button className="button-agende">
+            {' '}
+            <p>Agende sua visita</p>
+          </button>
         </div>
         <Line2 lineNumber="line-100"></Line2>
       </div>
       <div className="eventos">
         <div className="eventos-header">
-          <img
-            className="img-evento"
-            src={require('../../assets/images/vinicola-4.png')}
-          ></img>
+          <img src={require('../../assets/images/vinicola-4.png')}></img>
           <h1>Eventos</h1>
           <h2>
             Sazonalmente nós promovemos eventos de degustação e cursos para
