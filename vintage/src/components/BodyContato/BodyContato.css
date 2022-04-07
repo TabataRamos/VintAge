@@ -1,0 +1,121 @@
+.vinicolacontato {
+  width: 450px;
+  height: auto;
+  padding: 10px;
+  border: 5px solid #f6db8e;
+  margin: 0;
+  border-radius: 20px;
+  background-color: rgba(26, 26, 25, 0.2);
+  backdrop-filter: blur(5px);
+  margin-top: -52px;
+  margin-left: 228px;
+}
+
+.vinicolacontato h2 {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fcfbf8;
+}
+
+.vinicolacontato h3 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fcfbf8;
+}
+
+.confira {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.confira h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 40px;
+  color: #f6db8e;
+  font-family: 'Playfair Display';
+  margin-left: 228px;
+}
+
+.confira h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: #f6db8e;
+  font-family: 'Playfair Display';
+  margin-left: 228px;
+}
+
+.nome-estado {
+  font-family: 'Playfair Display';
+  font-size: 38px;
+  color: #f6db8e;
+  margin-bottom: 40px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.lojas-estado {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.lojas-estado-sp {
+  display: flex;
+  margin-left: 85px;
+}
+
+.informacoes-loja {
+  margin-left: 50px;
+}
+
+.informacoes-loja-sp {
+  margin-left: 135px;
+}
+
+.informacoes-loja-sp-2 {
+  margin-left: 105px;
+}
+
+.nome-loja {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 24px;
+  color: #f6db8e;
+  margin-bottom: 10px;
+}
+
+.local-loja {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.004em;
+  color: #ffffff;
+}
+
+.parceria {
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  color: #f6db8e;
+  font-weight: 400;
+}
+
+.icon-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-left: 228px;
+}

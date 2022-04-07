@@ -11,7 +11,7 @@ function FilterDrop({ selected, setSelected }) {
       <div className="dropdown-btn" onClick={(e) => setIsActive(!isActive)}>
         {selected}
         <span>
-          <Icon icon="bxs:right-arrow" color="#1a1a19" height="16" />
+          <Icon icon="bxs:down-arrow" color="#1a1a19" height="16" />
         </span>
       </div>
       {isActive && (
