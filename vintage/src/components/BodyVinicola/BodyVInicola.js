@@ -7,7 +7,7 @@ function BodyVinicola() {
   return (
     <div>
       <div className="vinicola-inicio">
-        <h1>A vinícola</h1>
+        <Title text="A Vinícola"></Title>
         <h2>
           A vinícola Vintage está localizada na região serrana de Santa Catarina, no <br />{" "}
           município de São Joaquim.
@@ -16,29 +16,20 @@ function BodyVinicola() {
       </div>
       <div className="vinicola-info">
         <img src={require("../../assets/images/vinicola-1.png")} alt="Foto da Vinícola"></img>
+
         <p>
-          Ao norte dos vinhedos está o <br />
-          casarão. A antiga casa da família foi <br />
-          tombada como patrimônio histórico <br />
-          do estado de Santa Catarina em <br />
-          2016. Essa belíssima construção em <br />
-          pedra, pertence à família há 12 <br />
-          gerações e guarda memórias de <br />
-          nossos descendentes imigrantes <br />
-          italianos. Mais que o DNA, o amor <br />
-          pela vitivinicultura de nossos <br />
-          antepassados foi passado de <br />
-          geração em geração.
+          Ao norte dos vinhedos está o casarão. A antiga casa da família foi tombada como patrimônio
+          histórico do estado de Santa Catarina em 2016. Essa belíssima construção em pedra,
+          pertence à família há 12 gerações e guarda memórias de nossos descendentes imigrantes
+          italianos. Mais que o DNA, o amor pela vitivinicultura de nossos antepassados foi passado
+          de geração em geração.
         </p>
       </div>
       <Line2 lineNumber="line-60-end"></Line2>
       <div className="vinicola-info-dois">
         <p>
-          Nossos barris de maturação ficam em <br />
-          uma construção subterrânea que se <br />
-          estende desde o porão da casa da <br />
-          família até próximo a estrada dos <br />
-          vinhedos.
+          Nossos barris de maturação ficam em uma construção subterrânea que se estende desde o
+          porão da casa da família até próximo a estrada dos vinhedos.
         </p>
         <img
           className="img-end"
@@ -51,13 +42,10 @@ function BodyVinicola() {
         <h1>Visitação</h1>
         <div className="visitacao-container-um">
           <img src={require("../../assets/images/vinicola-3.png")} alt="Foto da Vinícola"></img>
+
           <div>
             <p className="container-um">
-              Que tal observar <br />
-              um lindo por-do- <br />
-              sol enquanto <br />
-              aprecia um bom <br />
-              vinho?
+              Que tal observar um lindo por-do-sol enquanto aprecia um bom vinho?
             </p>
             <p className="container-dois">
               Nosso salão de jantar e jardim com <br />
@@ -90,15 +78,15 @@ function BodyVinicola() {
           <h2>Próximos eventos</h2>
           <div className="detalhes-datas">
             <h3>Jantar de aniversário do município - 07 de Maio</h3>
-            <button className="button-detalhes">Detalhes</button>
+            <button className="button-detalhes">Em Breve</button>
           </div>
           <div className="detalhes-datas">
             <h3>Lançamento Vintage Reserva - 14 de Maio</h3>
-            <button className="button-detalhes">Detalhes</button>
+            <button className="button-detalhes">Em Breve</button>
           </div>
           <div className="detalhes-datas">
             <h3>Dia nacional do vinho - 03 de Julho</h3>
-            <button className="button-detalhes">Detalhes</button>
+            <button className="button-detalhes">Em Breve</button>
           </div>
           <Line2 lineNumber="line-100"></Line2>
         </div>

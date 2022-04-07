@@ -5,8 +5,8 @@
 }
 
 .__Detalhes-vinho img {
-  /* width: 253px;
-  height: 800px; */
+  width: 253px;
+  height: 800px;
   position: absolute;
   left: 20vw;
   top: 20vh;
@@ -26,13 +26,14 @@
 .__Detalhes-vinho h5 {
   font-family: "Playfair Display";
   font-weight: 300;
+  font-style: normal;
   font-size: 22px;
   line-height: 20px;
   font-weight: 400;
   letter-spacing: 0.0025em;
   white-space: normal;
   color: #ffffff;
-  width: 500px;
+  width: 20vw;
   text-align: left;
 
   padding-left: 5px;
@@ -57,17 +58,17 @@
 .descricao {
   position: relative;
   left: 50vw;
-  top: -35vh;
+  top: -37vh;
+  height: 20vh;
 }
 
 .harmonizacoes {
   position: relative;
   left: 20vw;
-  top: -15vh;
+  top: -30vh;
 }
 
 .harmonizacao {
-  width: 500px;
   height: 15vh;
   position: relative;
   display: flex;
@@ -83,4 +84,56 @@
 .prato {
   display: flex;
   align-items: center;
+}
+
+.linha {
+  position: relative;
+  top: -6vh;
+}
+
+.infos {
+  display: flex;
+  white-space: nowrap;
+  position: relative;
+  width: 35vw;
+  left: 50vw;
+  top: -95vh;
+  padding-top: 5px;
+  justify-content: space-between;
+}
+
+.titulo h1 {
+  position: relative;
+  left: 52vw;
+  top: -62vh;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 76px;
+  color: #1a1a19;
+}
+
+.logo {
+  position: relative;
+  left: 50vw;
+  top: -62vh;
+}
+
+.linha3 img {
+  width: 50vw;
+  position: relative;
+  left: 50vw;
+  top: -63vh;
+}
+
+.button {
+  position: relative;
+  left: 20vw;
+  top: -20vh;
+}
+
+.button a {
+  text-decoration: none;
 }
