@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="__header">
       <ul className="list">
-        <Link to="/">
+        <Link to="/home">
           <li>Home</li>
         </Link>
         <Link to="/nossos-vinhos">
