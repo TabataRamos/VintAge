@@ -18,7 +18,7 @@ export default function DetalheVinho() {
     2: "icon-park-outline:chicken-leg",
     3: "tabler:meat",
     4: "tabler:meat",
-    5: "tabler:meat",
+    5: "icon-park-outline:chicken-leg",
     7: "tabler:sausage",
     8: "bx:cheese",
     9: "bx:cheese",
@@ -27,7 +27,7 @@ export default function DetalheVinho() {
     12: "ion:fish-outline",
     13: "fa6-solid:shrimp",
     14: "tabler:mushroom",
-    15: "tabler:mushroom",
+    15: "icon-park-outline:french-fries",
     17: "ri:cake-3-line",
   };
   useEffect(() => {

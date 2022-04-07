@@ -1,12 +1,23 @@
+.vinicola-inicio h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 40px;
+  color: #f6db8e;
+  margin-left: 10vw;
+  margin-top: 3.5vw;
+  margin-bottom: 3vw;
+}
+
 .vinicola-inicio h2 {
-  font-family: "Spartan";
+  font-family: 'Spartan';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
   color: #f6db8e;
-  margin-left: 15vw;
-  padding-top: 5vh;
+  margin-left: 228px;
 }
 
 .vinicola-info {
@@ -16,7 +27,7 @@
 }
 
 .vinicola-info p {
-  font-family: "Spartan";
+  font-family: 'Spartan';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -25,12 +36,7 @@
   align-items: center;
   letter-spacing: 0.0015em;
   color: #fff;
-  text-align: left;
-
-  width: 30vw;
-
-  white-space: normal;
-  margin-left: 5vw;
+  text-align: justify;
 }
 
 .vinicola-info-dois {
@@ -39,35 +45,25 @@
 }
 
 .img-end {
-  position: absolute;
-  float: right;
-  right: 0;
-  justify-content: flex-end;
+  align-content: flex-end;
   display: flex;
 }
 
 .vinicola-info-dois p {
-  font-family: "Spartan";
+  font-family: 'Spartan';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.0015em;
   color: #fff;
-  text-align: left;
-
-  width: 480px;
-  height: 494px;
-
-  white-space: normal;
-  margin-left: 35%;
-  margin-right: 10vh;
+  text-align: justify;
+  margin-top: 100px;
 }
 
 .visitacao h1 {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -80,26 +76,21 @@
 
 .visitacao-container-um {
   display: flex;
-  width: 60vw;
 }
 
 .container-um {
-  text-align: left;
+  text-align: justify;
   font-size: 57px;
   line-height: 76px;
-  white-space: normal;
-  margin: 15vh 0 0 10vw;
 }
 
 .container-dois {
   text-align: justify;
-  font-family: "Spartan";
+  font-family: 'Spartan';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-
-  margin: 5vh 10vw;
 }
 
 .button-agende {
@@ -113,12 +104,10 @@
   background-color: #f6db8e;
   margin-right: 5vw;
   cursor: pointer;
-
-  margin-left: 10vw;
 }
 
 .button-agende p {
-  font-family: "Spartan";
+  font-family: 'Spartan';
   font-weight: 700;
   font-size: 18px;
   line-height: 16px;
@@ -129,7 +118,7 @@
 }
 
 .eventos-header h1 {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -141,12 +130,11 @@
 }
 
 .img-evento {
-  width: 70vw;
-  margin: 2vh 15vw;
+  margin-left: 15vw;
 }
 
 .eventos-header h2 {
-  font-family: "Spartan";
+  font-family: 'Spartan';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -156,7 +144,7 @@
 }
 
 .eventos-datas h2 {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -168,7 +156,7 @@
 }
 
 .eventos-datas h3 {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -189,12 +177,12 @@
   align-items: center;
   width: 120px;
   height: 30px;
-  border: 2px solid #bdbdbc;
+  border: 2px solid #f6db8e;
   font-weight: 700;
   border-radius: 40px;
   background-color: transparent;
-  color: #bdbdbc;
+  color: #f6db8e;
   margin-right: 5vw;
-
+  cursor: pointer;
   margin-right: 30vw;
 }

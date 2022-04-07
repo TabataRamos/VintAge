@@ -1,13 +1,13 @@
-import "./BodyVinicola.css";
-import Forms from "../Forms/Forms";
-import Line2 from "../Line2/Line2";
-import Title from "../Title/Title";
+import './BodyVinicola.css'
+import Forms from '../Forms/Forms'
+import Line2 from '../Line2/Line2'
+import Title from '../Title/Title'
 
 function BodyVinicola() {
   return (
     <div>
       <div className="vinicola-inicio">
-        <Title text="A Vinícola"></Title>
+        <h1>A vinícola</h1>
         <h2>
           A vinícola Vintage está localizada na região serrana de Santa
           Catarina, no <br /> município de São Joaquim.
@@ -15,36 +15,47 @@ function BodyVinicola() {
         <Line2 lineNumber="line-50"></Line2>
       </div>
       <div className="vinicola-info">
-        <img src={require("../../assets/images/vinicola-1.png")}></img>
+        <img src={require('../../assets/images/vinicola-1.png')}></img>
         <p>
-          Ao norte dos vinhedos está o casarão. A antiga casa da família foi
-          tombada como patrimônio histórico do estado de Santa Catarina em 2016.
-          Essa belíssima construção em pedra, pertence à família há 12 gerações
-          e guarda memórias de nossos descendentes imigrantes italianos. Mais
-          que o DNA, o amor pela vitivinicultura de nossos antepassados foi
-          passado de geração em geração.
+          Ao norte dos vinhedos está o <br />
+          casarão. A antiga casa da família foi <br />
+          tombada como patrimônio histórico <br />
+          do estado de Santa Catarina em <br />
+          2016. Essa belíssima construção em <br />
+          pedra, pertence à família há 12 <br />
+          gerações e guarda memórias de <br />
+          nossos descendentes imigrantes <br />
+          italianos. Mais que o DNA, o amor <br />
+          pela vitivinicultura de nossos <br />
+          antepassados foi passado de <br />
+          geração em geração.
         </p>
       </div>
       <Line2 lineNumber="line-60-end"></Line2>
       <div className="vinicola-info-dois">
         <p>
-          Nossos barris de maturação ficam em uma construção subterrânea que se
-          estende desde o porão da casa da família até próximo a estrada dos
+          Nossos barris de maturação ficam em <br />
+          uma construção subterrânea que se <br />
+          estende desde o porão da casa da <br />
+          família até próximo a estrada dos <br />
           vinhedos.
         </p>
         <img
           className="img-end"
-          src={require("../../assets/images/vinicola-2.png")}
+          src={require('../../assets/images/vinicola-2.png')}
         ></img>
       </div>
       <Line2 lineNumber="line-100"></Line2>
       <div className="visitacao">
         <h1>Visitação</h1>
         <div className="visitacao-container-um">
-          <img src={require("../../assets/images/vinicola-3.png")}></img>
+          <img src={require('../../assets/images/vinicola-3.png')}></img>
           <div>
             <p className="container-um">
-              Que tal observar um lindo por-do-sol enquanto aprecia um bom
+              Que tal observar <br />
+              um lindo por-do- <br />
+              sol enquanto <br />
+              aprecia um bom <br />
               vinho?
             </p>
             <p className="container-dois">
@@ -53,7 +64,7 @@ function BodyVinicola() {
               para visitação agendada.
             </p>
             <button className="button-agende">
-              {" "}
+              {' '}
               <p>Agende sua visita</p>
             </button>
           </div>
@@ -64,7 +75,7 @@ function BodyVinicola() {
         <div className="eventos-header">
           <img
             className="img-evento"
-            src={require("../../assets/images/vinicola-4.png")}
+            src={require('../../assets/images/vinicola-4.png')}
           ></img>
           <h1>Eventos</h1>
           <h2>
@@ -77,15 +88,15 @@ function BodyVinicola() {
           <h2>Próximos eventos</h2>
           <div className="detalhes-datas">
             <h3>Jantar de aniversário do município - 07 de Maio</h3>
-            <button className="button-detalhes">Em Breve</button>
+            <button className="button-detalhes">Detalhes</button>
           </div>
           <div className="detalhes-datas">
             <h3>Lançamento Vintage Reserva - 14 de Maio</h3>
-            <button className="button-detalhes">Em Breve</button>
+            <button className="button-detalhes">Detalhes</button>
           </div>
           <div className="detalhes-datas">
             <h3>Dia nacional do vinho - 03 de Julho</h3>
-            <button className="button-detalhes">Em Breve</button>
+            <button className="button-detalhes">Detalhes</button>
           </div>
           <Line2 lineNumber="line-100"></Line2>
         </div>
@@ -95,7 +106,7 @@ function BodyVinicola() {
         <Forms imagem="visita"></Forms>
       </div>
     </div>
-  );
+  )
 }
 
-export default BodyVinicola;
+export default BodyVinicola
