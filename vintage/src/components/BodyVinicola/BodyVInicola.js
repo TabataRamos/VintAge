@@ -1,7 +1,7 @@
-import './BodyVinicola.css'
-import Forms from '../Forms/Forms'
-import Line2 from '../Line2/Line2'
-import Title from '../Title/Title'
+import "./BodyVinicola.css";
+import Forms from "../Forms/Forms";
+import Line2 from "../Line2/Line2";
+import Title from "../Title/Title";
 
 function BodyVinicola() {
   return (
@@ -9,13 +9,13 @@ function BodyVinicola() {
       <div className="vinicola-inicio">
         <h1>A vinícola</h1>
         <h2>
-          A vinícola Vintage está localizada na região serrana de Santa
-          Catarina, no <br /> município de São Joaquim.
+          A vinícola Vintage está localizada na região serrana de Santa Catarina, no <br />{" "}
+          município de São Joaquim.
         </h2>
         <Line2 lineNumber="line-50"></Line2>
       </div>
       <div className="vinicola-info">
-        <img src={require('../../assets/images/vinicola-1.png')}></img>
+        <img src={require("../../assets/images/vinicola-1.png")} alt="Foto da Vinícola"></img>
         <p>
           Ao norte dos vinhedos está o <br />
           casarão. A antiga casa da família foi <br />
@@ -42,14 +42,15 @@ function BodyVinicola() {
         </p>
         <img
           className="img-end"
-          src={require('../../assets/images/vinicola-2.png')}
+          alt="Foto da Vinícola"
+          src={require("../../assets/images/vinicola-2.png")}
         ></img>
       </div>
       <Line2 lineNumber="line-100"></Line2>
       <div className="visitacao">
         <h1>Visitação</h1>
         <div className="visitacao-container-um">
-          <img src={require('../../assets/images/vinicola-3.png')}></img>
+          <img src={require("../../assets/images/vinicola-3.png")} alt="Foto da Vinícola"></img>
           <div>
             <p className="container-um">
               Que tal observar <br />
@@ -64,7 +65,7 @@ function BodyVinicola() {
               para visitação agendada.
             </p>
             <button className="button-agende">
-              {' '}
+              {" "}
               <p>Agende sua visita</p>
             </button>
           </div>
@@ -75,7 +76,8 @@ function BodyVinicola() {
         <div className="eventos-header">
           <img
             className="img-evento"
-            src={require('../../assets/images/vinicola-4.png')}
+            alt="Foto da Vinícola"
+            src={require("../../assets/images/vinicola-4.png")}
           ></img>
           <h1>Eventos</h1>
           <h2>
@@ -106,7 +108,7 @@ function BodyVinicola() {
         <Forms imagem="visita"></Forms>
       </div>
     </div>
-  )
+  );
 }
 
-export default BodyVinicola
+export default BodyVinicola;
