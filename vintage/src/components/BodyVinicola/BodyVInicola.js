@@ -102,7 +102,7 @@ function BodyVinicola() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default BodyVinicola
+export default BodyVinicola;

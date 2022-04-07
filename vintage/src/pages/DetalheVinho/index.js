@@ -47,7 +47,18 @@ export default function DetalheVinho() {
         <Header />
         <Banner imagem={`${params.id}`} logo="logo-hidden"></Banner>
         <Body></Body>
-        <Line2 lineNumber="line-100" />
+        <div className="linha">
+          <Line2 lineNumber="line-100" />
+        </div>
+        <div className="logo">
+          <img
+            src={require("../../assets/images/VintAge(2).png")}
+            alt="logo"
+          ></img>
+        </div>
+        <div className="linha3">
+          <img src={require("../../assets/images/line3.png")} alt="logo"></img>
+        </div>
       </div>
       <div>
         {vinhos.map((vinho) => {
@@ -55,8 +66,8 @@ export default function DetalheVinho() {
             <div className="__Detalhes-vinho">
               <div key={vinho.id}>
                 <img src={vinho.link_foto} alt={vinho.Uva.nome_uva}></img>
-                <div>
-                  <h1>{vinho.Uva.nome_uva}</h1>{" "}
+                <div className="titulo">
+                  <h1>Vintage {vinho.Uva.nome_uva}</h1>{" "}
                 </div>
                 <div className="descricao">
                   <h4>Descrição:</h4>
@@ -81,19 +92,25 @@ export default function DetalheVinho() {
                     })}
                   </div>
                 </div>
-                <ButtonOpen text="Baixar Ficha Técnica"></ButtonOpen>
-                <h4>
-                  <Icon
-                    icon="mdi:fruit-grapes-outline"
-                    color="#F6DB8E"
-                    height="60"
-                  />
-                  Uva: {vinho.Uva.nome_uva}
-                </h4>
-                <h4>
-                  <Icon icon="bxs:wine" color="#F6DB8E" height="60" /> Tipo:{" "}
-                  {vinho.Tipo.nome_tipo}
-                </h4>
+                <div className="button">
+                  <a href="https://drive.google.com/drive/u/1/folders/10CTUdBiydJrAq9GF56GH6JP9ARu9rODE">
+                    <ButtonOpen text="Baixar Ficha Técnica"></ButtonOpen>
+                  </a>
+                </div>
+                <div className="infos">
+                  <h4>
+                    <Icon icon="bxs:wine" color="#F6DB8E" height="40" /> Tipo:{" "}
+                    {vinho.Tipo.nome_tipo}
+                  </h4>
+                  <h4>
+                    <Icon
+                      icon="mdi:fruit-grapes-outline"
+                      color="#F6DB8E"
+                      height="40"
+                    />
+                    Uva: {vinho.Uva.nome_uva}
+                  </h4>
+                </div>
               </div>
             </div>
           );

@@ -9,9 +9,9 @@
   border: 2px solid #e5cb7f;
   border-radius: 40px;
   background-color: #1a1a19;
-
   margin-right: 5vw;
   cursor: pointer;
+  padding: 10px;
 }
 
 .__ButtonOpen #button-text {
@@ -27,4 +27,9 @@
 
 .__ButtonOpen a {
   padding-right: 8px;
+}
+
+.__ButtonOpen:hover {
+  border-color: #b8a157;
+  color: #fff;
 }
