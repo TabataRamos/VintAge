@@ -83,6 +83,10 @@
   width: 60vw;
 }
 
+.visitacao-container-um a {
+  text-decoration: none;
+}
+
 .container-um {
   text-align: left;
   font-size: 57px;
@@ -141,8 +145,8 @@
 }
 
 .img-evento {
-  width: 70vw;
-  margin: 2vh 15vw;
+  width: 70%;
+  margin: 2% 15%;
 }
 
 .eventos-header h2 {
@@ -197,4 +201,14 @@
   margin-right: 5vw;
 
   margin-right: 30vw;
+}
+
+@media (max-width: 786px) {
+  .vinicola-inicio h2 {
+    font-size: 14px;
+  }
+  .vinicola-info img {
+    width: 100%;
+    height: 50%;
+  }
 }

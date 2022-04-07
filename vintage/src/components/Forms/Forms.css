@@ -3,7 +3,7 @@
   background-color: #000;
   color: #fff;
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   padding-left: 10vw;
   margin: 5vh 0;
 }
@@ -69,4 +69,20 @@ input {
   padding-top: 4vh;
   padding-left: 2vw;
   padding: 2vh 0 4vh 1vw;
+}
+
+@media (max-width: 786px) {
+  .__forms {
+    background-image: url("../../assets/images/newsletter.png");
+    background-repeat: no-repeat;
+  }
+
+  .__forms label input {
+    width: 200%;
+    z-index: 1;
+  }
+
+  .__forms img {
+    visibility: hidden;
+  }
 }

@@ -11,8 +11,10 @@
 
   background: #f6db8e;
   border-radius: 40px;
-
+  border: none;
   cursor: pointer;
+
+  transition: 300ms;
 }
 
 .__ButtonFull p {
@@ -22,4 +24,20 @@
   line-height: 16px;
   letter-spacing: 0.001em;
   color: #1a1a19;
+}
+
+.__ButtonFull:hover {
+  background-color: #b8a157;
+  transition: 200ms;
+}
+
+@media (max-width: 786px) {
+  .__ButtonFull {
+    width: 80%;
+  }
+
+  .__ButtonFull p {
+    font-size: 16px;
+    width: min-content;
+  }
 }

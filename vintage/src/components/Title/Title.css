@@ -8,7 +8,14 @@
   color: #f6db8e;
   white-space: nowrap;
   position: relative;
-  left: 10vw;
+  left: 10%;
   margin-top: 5vh;
   text-transform: capitalize;
+  width: fit-content;
+}
+
+@media (max-width: 786px) {
+  #__title-text {
+    font-size: 22px;
+  }
 }

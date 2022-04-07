@@ -2,8 +2,8 @@
 
 .__footer {
   background: #4b4b4a;
-  width: 100vw;
-  height: 35vh;
+  width: 100%;
+
   bottom: 0px;
   color: #fcfbf8;
   text-decoration-line: underline;
@@ -105,4 +105,25 @@
   line-height: 21px;
   display: flex;
   white-space: nowrap;
+}
+
+@media (max-width: 786px) {
+  .__footer-logo {
+    display: none;
+  }
+  .list-footer {
+    flex-direction: column;
+  }
+
+  .list-footer ul li a {
+    font-size: 10px;
+  }
+  .list-footer ul li {
+    padding-top: 10px;
+  }
+
+  .icons {
+    right: 0;
+    top: -50px;
+  }
 }

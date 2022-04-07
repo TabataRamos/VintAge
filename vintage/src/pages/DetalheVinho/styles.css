@@ -8,7 +8,7 @@
   width: 253px;
   height: 800px;
   position: absolute;
-  left: 20vw;
+  left: 20%;
   top: 20vh;
 }
 
@@ -60,11 +60,12 @@
   left: 50vw;
   top: -37vh;
   height: 20vh;
+  max-width: 50%;
 }
 
 .harmonizacoes {
   position: relative;
-  left: 20vw;
+  left: 20%;
   top: -30vh;
 }
 
@@ -104,7 +105,7 @@
 
 .titulo h1 {
   position: relative;
-  left: 52vw;
+  left: 50vw;
   top: -62vh;
   font-style: normal;
   font-family: "Playfair Display";
@@ -113,18 +114,20 @@
   font-size: 60px;
   line-height: 76px;
   color: #1a1a19;
+  max-width: fit-content;
 }
 
 .logo {
   position: relative;
-  left: 50vw;
+  max-width: 500px;
   top: -62vh;
+  left: 50%;
 }
 
 .linha3 img {
   width: 50vw;
   position: relative;
-  left: 50vw;
+  left: 49.2%;
   top: -63vh;
 }
 

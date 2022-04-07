@@ -48,3 +48,9 @@
   position: relative;
   top: -5vh;
 }
+
+@media (max-width: 786px) {
+  .__header {
+    visibility: hidden;
+  }
+}

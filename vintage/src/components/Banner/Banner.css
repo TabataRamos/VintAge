@@ -2,12 +2,11 @@
   background-image: url(/src/assets/images/Banner-Detalhes.png);
   background-repeat: no-repeat;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 75vh;
   background-size: cover;
   background-position: center;
   z-index: -1;
-  display: inline;
 }
 
 .home {
@@ -51,7 +50,7 @@
 }
 
 .logo-visible {
-  position: absolute;
+  position: relative;
   width: 400px;
   height: 200px;
   left: 10vw;
@@ -60,4 +59,14 @@
 
 .logo-hidden {
   visibility: hidden;
+}
+
+@media (max-width: 786px) {
+  .__banner {
+    width: 100%;
+  }
+
+  .logo-visible {
+    visibility: hidden;
+  }
 }

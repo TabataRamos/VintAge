@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Spartan:wght@300;400;700&display=swap");
-
 .__Rotulos-text {
   margin-top: 3vh;
   margin-left: 15vw;
@@ -50,4 +49,27 @@ ul li p::before {
   margin-bottom: -20vh;
   white-space: normal;
   margin-right: 15vw;
+}
+
+@media (max-width: 786px) {
+  .__Rotulos-text p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 80%;
+  }
+  .selos {
+    display: flex;
+  }
+
+  .selos img {
+    width: 25%;
+    margin: 5%;
+  }
+
+  .selos-paragrafo {
+    padding: 25px 0;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+  }
 }

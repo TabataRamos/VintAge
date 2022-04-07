@@ -4,15 +4,16 @@
   background-position: center;
   justify-content: center;
   align-items: center;
-
-  left: 20vw;
+  align-self: center;
 }
 
 .__TesteVinho {
+  position: relative;
+  left: 15%;
   display: block;
   background-image: url(/src/assets/images/Teste.png);
   background-repeat: no-repeat;
-  width: 70vw;
+  width: 70%;
   height: 70vh;
 
   background-position: center;
@@ -45,4 +46,16 @@ h2 {
   left: 15%;
 
   align-items: center;
+}
+
+@media (max-width: 786px) {
+  .__TesteVinho h3,
+  h2 {
+    width: 70%;
+    font-size: 20px;
+  }
+  .__TesteVinho h2 {
+    width: 60%;
+    font-size: 30px;
+  }
 }

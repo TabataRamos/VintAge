@@ -13,3 +13,14 @@
   background: linear-gradient(#1a1a19, #242422) padding-box,
     linear-gradient(to left, #8d7931, #f6db8e) border-box;
 }
+
+@media (max-width: 786px) {
+  .__reservas {
+    width: 80%;
+    margin: 20px;
+  }
+
+  .border {
+    margin: 20%;
+  }
+}

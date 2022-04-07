@@ -8,3 +8,11 @@
 .filtro-tipo a {
   text-decoration: none;
 }
+
+@media (max-width: 786px) {
+  .filtro-tipo {
+    width: 50%;
+    display: block;
+    margin: 5vh 25%;
+  }
+}
