@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 function VinhosReserva(props) {
   return (
     <div className="__reservas">
-      <Link to="/nossos-vinhos/3">
+      <Link to="/vinho/3">
         <div className="border">
-          <img src="https://i.imgur.com/0KVQDQi.png"></img>
+          <img src="https://i.imgur.com/0KVQDQi.png" alt="Vinho Chardonnay"></img>
         </div>
       </Link>
-      <Link to="/nossos-vinhos/5">
+      <Link to="/vinho/5">
         <div className="border">
-          <img src="https://i.imgur.com/e8Hdbfb.png"></img>
+          <img src="https://i.imgur.com/e8Hdbfb.png" alt="Vinho Cabernet Sauvignon"></img>
         </div>
       </Link>
-      <Link to="/nossos-vinhos/7">
+      <Link to="/vinho/7">
         <div className="border">
-          <img src="https://i.imgur.com/gUIh4qm.png"></img>
+          <img src="https://i.imgur.com/gUIh4qm.png" alt="Vinho Malbec"></img>
         </div>
       </Link>
     </div>
