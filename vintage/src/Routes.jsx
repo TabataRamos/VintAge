@@ -7,12 +7,14 @@ import Vinhos from "./pages/Vinhos";
 import DetalheVinho from "./pages/DetalheVinho";
 import NossosVinhos from "./pages/NossosVinhos";
 import FiltroTipo from "./pages/Filtro-Tipo";
+import PopUpIdade from "./pages/Pop-up-Idade";
 
 function Routes() {
   return (
     <BrowserRouter>
       <RoutesWrapper>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<PopUpIdade />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/vinicola" element={<Vinicola />} />
         <Route path="/nossos-vinhos" element={<NossosVinhos />} />
