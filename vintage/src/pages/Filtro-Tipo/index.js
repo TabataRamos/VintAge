@@ -7,6 +7,7 @@ import Body from "../../components/Body/Body";
 import Line2 from "../../components/Line2/Line2";
 import Footer from "../../components/Footer/Footer";
 import FilterDrop from "../../components/FilterDrop/FilterDrop";
+import Title from "../../components/Title/Title";
 
 export default function FiltroTipo() {
   const [selected, setSelected] = useState("Filtrar por Tipo");
@@ -33,6 +34,7 @@ export default function FiltroTipo() {
       </div>
       <Body></Body>
       <div>
+        <Title text={params.tipo}></Title>
         <FilterDrop selected={selected} setSelected={setSelected} />
       </div>
       <Line2 lineNumber="line-100" />

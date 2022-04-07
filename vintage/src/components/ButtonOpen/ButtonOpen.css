@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-.__ButtonOpen p {
+.__ButtonOpen #button-text {
   font-family: "Spartan";
   font-weight: 700;
   font-size: 20px;

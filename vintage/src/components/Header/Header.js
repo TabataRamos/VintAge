@@ -6,7 +6,7 @@ function Header() {
     <header className="__header">
       <ul className="list">
         <Link to="/">
-          <li> Home</li>
+          <li>Home</li>
         </Link>
         <Link to="/nossos-vinhos">
           <li>Nossos Vinhos</li>

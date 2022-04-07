@@ -79,8 +79,8 @@
 .icons ul {
   position: relative;
   right: 10vw;
-  bottom: -3vh;
-  padding: 50px;
+  bottom: -10vh;
+
   display: flex;
   list-style: none;
 }
@@ -94,9 +94,10 @@
 }
 
 #redes {
+  color: #fcfbf8;
   margin-top: 50px;
   position: absolute;
-  right: 8vw;
+  right: 20vw;
   font-family: "Playfair Display";
   font-weight: 500;
   font-size: 16px;

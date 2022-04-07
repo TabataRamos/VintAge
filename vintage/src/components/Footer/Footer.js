@@ -9,7 +9,10 @@ function Footer() {
         <div className="__footer-logo">
           <ul>
             <li>
-              <img src={require("../../assets/images/VintAge.png")} alt="logo"></img>
+              <img
+                src={require("../../assets/images/VintAge.png")}
+                alt="logo"
+              ></img>
             </li>
 
             <li>
@@ -55,18 +58,24 @@ function Footer() {
           </ul>
         </div>
         <div className="icons">
-          <ul>
-            <li id="redes">Redes Socias:</li>
-          </ul>
+          <p id="redes">Redes Socias:</p>
           <ul>
             <li>
               <a href="https://www.instagram.com/vintage.vinic/">
-                <Icon icon="akar-icons:instagram-fill" color="#fcfbf8" height="32" />
+                <Icon
+                  icon="akar-icons:instagram-fill"
+                  color="#fcfbf8"
+                  height="32"
+                />
               </a>
             </li>
             <li>
               <a href="https://twitter.com/VintageVinicola">
-                <Icon icon="icon-park-outline:twitter" color="#fcfbf8" height="32" />
+                <Icon
+                  icon="icon-park-outline:twitter"
+                  color="#fcfbf8"
+                  height="32"
+                />
               </a>
             </li>
             <li>

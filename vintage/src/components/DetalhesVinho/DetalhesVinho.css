@@ -1,0 +1,11 @@
+.__Detalhes-vinho {
+  display: flex;
+}
+
+.__Detalhes-vinho img {
+  width: 253px;
+  height: 800px;
+  position: absolute;
+  left: 20vw;
+  top: 35vh;
+}
