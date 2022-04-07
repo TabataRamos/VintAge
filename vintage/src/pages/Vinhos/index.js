@@ -45,7 +45,7 @@ function Vinhos() {
           return (
             <div className="__vinho">
               <div key={vinho.id}>
-                <Link to={`/nossos-vinhos/${vinho.id}`}>
+                <Link to={`/vinho/${vinho.id}`}>
                   <img src={vinho.link_foto} alt={vinho.Uva.nome_uva}></img>
                   <h4>Vintage {vinho.Uva.nome_uva}</h4>
                   <p>{vinho.Tipo.nome_tipo}</p>

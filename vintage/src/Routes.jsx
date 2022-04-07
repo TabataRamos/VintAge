@@ -1,8 +1,4 @@
-import {
-  BrowserRouter,
-  Routes as RoutesWrapper,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes as RoutesWrapper, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Contato from "./pages/Contato";
@@ -21,8 +17,8 @@ function Routes() {
         <Route path="/vinicola" element={<Vinicola />} />
         <Route path="/nossos-vinhos" element={<NossosVinhos />} />
         <Route path="/nossos-vinhos/todos" element={<Vinhos />} />
-        <Route path="/nossos-vinhos/:id" element={<DetalheVinho />} />
         <Route path="/nossos-vinhos/:tipo" element={<FiltroTipo />} />
+        <Route path="/vinho/:id" element={<DetalheVinho />} />
       </RoutesWrapper>
     </BrowserRouter>
   );

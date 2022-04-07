@@ -1,6 +1,7 @@
 import "./FilterDrop.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Icon } from "@iconify/react";
 
 function FilterDrop({ selected, setSelected }) {
   const [isActive, setIsActive] = useState(false);
@@ -9,7 +10,9 @@ function FilterDrop({ selected, setSelected }) {
     <div className="dropdown">
       <div className="dropdown-btn" onClick={(e) => setIsActive(!isActive)}>
         {selected}
-        <span className="fas fa-caret-down"></span>
+        <span>
+          <Icon icon="bxs:right-arrow" color="#1a1a19" height="16" />
+        </span>
       </div>
       {isActive && (
         <div className="dropdown-content">
