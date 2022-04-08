@@ -6,19 +6,19 @@ function Header() {
     <header className="__header">
       <ul className="list">
         <Link to="/home">
-          <li>Home</li>
+          <li id="home">Home</li>
         </Link>
         <Link to="/nossos-vinhos">
-          <li>Nossos Vinhos</li>
+          <li id="nossosVinhos">Nossos Vinhos</li>
         </Link>
 
         <li id="logo"></li>
 
         <Link to="/vinicola">
-          <li>A Vinícola</li>
+          <li id="vinicola">A Vinícola</li>
         </Link>
         <Link to="/contato">
-          <li>Contato</li>
+          <li id="contato">Contato</li>
         </Link>
       </ul>
     </header>

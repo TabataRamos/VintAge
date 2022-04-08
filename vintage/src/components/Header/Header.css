@@ -51,6 +51,49 @@
 
 @media (max-width: 786px) {
   .__header {
+    background-image: url(/src/assets/images/logo-vermelha.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    background-position: center;
+  }
+
+  #logo {
     visibility: hidden;
+  }
+
+  .list {
+    position: relative;
+    top: -0vh;
+  }
+
+  .list li {
+    font-size: 10px;
+    z-index: 5;
+    margin-left: 2vh;
+    margin-right: -2vh;
+  }
+
+  #home {
+    position: relative;
+    margin-left: 5vw;
+  }
+
+  #nossosVinhos {
+    position: relative;
+    margin-left: -5vw;
+  }
+
+  #vinicola {
+    position: relative;
+    margin-left: 8vw;
+  }
+
+  #contato {
+    position: relative;
+    margin-left: 5vw;
   }
 }

@@ -23,9 +23,12 @@
   color: #f6db8e;
   align-items: center;
   text-align: center;
+  width: min-content;
+  padding: 25px;
 }
 
 .__ButtonOpen a {
+  padding-left: 10px;
   padding-right: 8px;
 }
 

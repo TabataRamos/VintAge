@@ -33,7 +33,7 @@
 
 @media (max-width: 786px) {
   .__ButtonFull {
-    width: 80%;
+    width: max-content;
   }
 
   .__ButtonFull p {
