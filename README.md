@@ -1,6 +1,6 @@
 # VintAge
 
-<img  src="../../../../assets/images/VintAge.png"  width="200px;"/>
+<img  src="https://i.imgur.com/RS8qE0o.png"  width="300px;"/>
 
 ### Olá! Apresento a vocês o projeto do site Vintage
 
@@ -63,6 +63,12 @@ Atualmente, o projeto se encontra finalizado com as seguintes funcionalidades:
 - Estruturação das tabelas e população os dados em tabelas relacionais utilizando o MySQL;
 
 - Criação do Ambiente produtivo na nuvem.
+
+### **Como executar:**:
+
+`cd vintage `
+`npm install `
+`npm start `
 
 ### **Site desenvolvido por:**
 
