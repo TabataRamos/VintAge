@@ -25,6 +25,7 @@
   cursor: pointer;
   justify-content: space-between;
   text-transform: capitalize;
+  white-space: nowrap;
 }
 
 .dropdown .dropdown-content {
@@ -55,4 +56,18 @@
 
 .dropdown .dropdown-content .dropdown-item:hover {
   background-color: #f3e8c8;
+}
+
+@media (max-width: 786px) {
+  .dropdown {
+    width: 80vw;
+  }
+
+  .dropdown-btn span {
+    padding-left: 50%;
+  }
+
+  .dropdown .dropdown-content {
+    z-index: 2;
+  }
 }

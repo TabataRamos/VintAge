@@ -119,3 +119,128 @@
   justify-content: flex-start;
   margin-left: 228px;
 }
+
+
+@media only screen and (max-width: 786px) {
+  .__body {
+    max-width: 80%;
+  }
+
+
+  .vinicolacontato {
+    margin-left: 100px;
+    width: 60% !important; 
+  }
+  .confira h1 {
+    margin-left: 100px;
+    font-size: 30px;
+  }
+  .confira h2 {
+    margin-left: 150px;
+    font-size: 24px;
+  }
+
+  .icon-title {
+    margin-left: -80px
+  }
+
+  .nome-estado {
+    margin-left: -205px;
+    font-size: 30px;
+  }
+
+  .lojas-estado {
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    margin-left: 130px;
+  }
+
+  .lojas-estado-sp {
+    display: flex;
+    margin-left: 125px;
+    flex-direction: column;
+  }
+
+  .informacoes-loja-sp {
+    margin-left: 50px;
+  }
+
+  .informacoes-loja-sp-2 {
+    margin-left: 50px;
+  }
+
+  .button-submit {
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  #__title-text {
+    font-size: 30px;
+  }
+
+  .icons ul {
+    margin-top: 20px;
+  }
+
+  @media only screen and (min-width: 375px) {
+
+    .vinicolacontato {
+      width: 80%;
+      margin-left: 40px;
+    }
+    
+    .vinicolacontato h2 {
+      font-size: 26px;
+    }
+
+    .vinicolacontato h3 {
+      font-size: 18px;
+    }
+
+    .confira h1 {
+      font-size: 22px;
+      margin-left: 40px;
+    }
+
+    .confira h2 {
+      font-size: 18px;
+      margin-left: 60px;
+    }
+
+    .nome-estado {
+      margin-left: -90px;
+      font-size: 26px;
+    }
+
+    .nome-loja {
+      font-size: 22px;
+    }
+
+    .local-loja {
+      font-size: 13px;
+    }
+
+    .lojas-estado {
+      margin-left: 45px;
+    }
+
+    .lojas-estado-sp {
+      margin-left: 45px;
+    }
+
+    #__title-text {
+      font-size: 22px;
+    }
+
+    .__ButtonFull {
+      width: 140%;
+    }
+  }
+
+  @media only screen and (max-width: 622px) {
+    .icon-title {
+      margin-left: -30px;
+    }
+  }
+}

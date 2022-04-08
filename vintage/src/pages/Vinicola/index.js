@@ -1,7 +1,7 @@
 import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
 import Body from "../../components/Body/Body";
-import BodyVInicola from "../../components/BodyVinicola/BodyVInicola";
+import BodyVinicola from "../../components/BodyVinicola/BodyVinicola";
 import Footer from "../../components/Footer/Footer";
 
 function Vinicola() {
@@ -14,7 +14,7 @@ function Vinicola() {
       <div>
         <Body></Body>
       </div>
-      <BodyVInicola />
+      <BodyVinicola />
       <Footer />
     </>
   );
