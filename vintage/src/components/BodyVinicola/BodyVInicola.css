@@ -17,7 +17,8 @@
   font-size: 24px;
   line-height: 40px;
   color: #f6db8e;
-  margin-left: 228px;
+  margin-left: 15vw;
+  padding-top: 5vh;
 }
 
 .vinicola-info {
@@ -36,7 +37,12 @@
   align-items: center;
   letter-spacing: 0.0015em;
   color: #fff;
-  text-align: justify;
+  text-align: left;
+
+  width: 30vw;
+
+  white-space: normal;
+  margin-left: 5vw;
 }
 
 .vinicola-info-dois {
@@ -47,6 +53,10 @@
 .img-end {
   align-content: flex-end;
   display: flex;
+  position: absolute;
+  float: right;
+  right: 0;
+  justify-content: flex-end;
 }
 
 .vinicola-info-dois p {
@@ -55,11 +65,18 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
+  display: flex;
   align-items: center;
   letter-spacing: 0.0015em;
   color: #fff;
-  text-align: justify;
-  margin-top: 100px;
+  text-align: left;
+
+  width: 480px;
+  height: 494px;
+
+  white-space: normal;
+  margin-left: 35%;
+  margin-right: 10vh;
 }
 
 .visitacao h1 {
@@ -72,20 +89,34 @@
   margin-left: 10vw;
   margin-top: 3.5vw;
   margin-bottom: 3vw;
+  white-space: normal;
+}
+
+.visitacao-container-um img {
+  height: 100%;
 }
 
 .visitacao-container-um {
   display: flex;
+  width: 50vw;
+}
+
+.visitacao-container-um a {
+  text-decoration: none;
 }
 
 .container-um {
-  text-align: justify;
+  text-align: left;
   font-size: 57px;
   line-height: 76px;
+  width: 110%;
+  white-space: normal;
+  margin: 5vh 0 0 10vw;
+  width: 80%;
 }
 
 .container-dois {
-  text-align: left;
+  text-align: justify;
   font-family: "Spartan";
   font-style: normal;
   font-weight: 400;
@@ -93,6 +124,8 @@
   line-height: 40px;
   white-space: normal;
   margin: 5vh 10vw;
+  text-align: left;
+  width: 80%;
 }
 
 .button-agende {
@@ -106,6 +139,8 @@
   background-color: #f6db8e;
   margin-right: 5vw;
   cursor: pointer;
+
+  margin-left: 10vw;
 }
 
 .button-agende p {
@@ -132,7 +167,8 @@
 }
 
 .img-evento {
-  margin-left: 14vw;
+  width: 70%;
+  margin: 2% 15%;
 }
 
 .eventos-header h2 {
@@ -179,15 +215,16 @@
   align-items: center;
   width: 120px;
   height: 30px;
-  border: 2px solid #f6db8e;
+  border: 2px solid #bdbdbc;
   font-weight: 700;
   border-radius: 40px;
   background-color: transparent;
-  color: #f6db8e;
+  color: #bdbdbc;
   margin-right: 5vw;
-  white-space: nowrap;
   cursor: pointer;
   margin-right: 30vw;
+
+  white-space: nowrap;
 }
 
 @media (max-width: 786px) {
@@ -228,22 +265,22 @@
 
   .container-um {
     font-size: 18px;
-    width: 60%;
+    width: 80%;
     line-height: 25px;
     margin: 10px;
   }
 
   .container-dois {
     font-size: 14px;
-    width: 55%;
+    width: 75%;
     line-height: 25px;
     margin: 10px;
   }
 
   .button-agende {
     display: block;
-    left: -100%;
-    top: 20px;
+    left: -70%;
+    top: 25px;
     width: 100%;
   }
 
