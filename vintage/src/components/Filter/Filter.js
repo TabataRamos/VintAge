@@ -39,7 +39,7 @@ function Filter(props) {
       </div>
       <div className="filtro-tipo">
         <Link to="/nossos-vinhos/todos">
-          <ButtonFull text="Ver Todos"></ButtonFull>
+          <ButtonFull text="Ver Todos" id="button-full-filtro"></ButtonFull>
         </Link>
       </div>
     </div>

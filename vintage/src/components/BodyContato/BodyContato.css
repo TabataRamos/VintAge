@@ -12,7 +12,7 @@
 }
 
 .vinicolacontato h2 {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
@@ -20,7 +20,7 @@
 }
 
 .vinicolacontato h3 {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -40,7 +40,7 @@
   font-size: 38px;
   line-height: 40px;
   color: #f6db8e;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   margin-left: 228px;
 }
 
@@ -50,12 +50,12 @@
   font-size: 28px;
   line-height: 40px;
   color: #f6db8e;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   margin-left: 228px;
 }
 
 .nome-estado {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 38px;
   color: #f6db8e;
   margin-bottom: 40px;
@@ -87,7 +87,7 @@
 }
 
 .nome-loja {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-weight: 400;
   font-size: 24px;
   color: #f6db8e;
@@ -95,7 +95,7 @@
 }
 
 .local-loja {
-  font-family: 'Spartan';
+  font-family: "Spartan";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -107,7 +107,7 @@
 }
 
 .parceria {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 20px;
   color: #f6db8e;
   font-weight: 400;
@@ -120,16 +120,14 @@
   margin-left: 228px;
 }
 
-
 @media only screen and (max-width: 786px) {
   .__body {
     max-width: 80%;
   }
 
-
   .vinicolacontato {
     margin-left: 100px;
-    width: 60% !important; 
+    width: 60% !important;
   }
   .confira h1 {
     margin-left: 100px;
@@ -141,7 +139,7 @@
   }
 
   .icon-title {
-    margin-left: -80px
+    margin-left: -80px;
   }
 
   .nome-estado {
@@ -184,12 +182,11 @@
   }
 
   @media only screen and (min-width: 375px) {
-
     .vinicolacontato {
       width: 80%;
       margin-left: 40px;
     }
-    
+
     .vinicolacontato h2 {
       font-size: 26px;
     }
@@ -233,7 +230,7 @@
       font-size: 22px;
     }
 
-    .__ButtonFull {
+    #button-full-form {
       width: 140%;
     }
   }

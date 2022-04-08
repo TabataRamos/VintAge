@@ -30,7 +30,7 @@ function Forms(props) {
             <input type="text" name="b_63dc892e925da2c7389193d80_a0a3f308ab" tabIndex="-1" />
           </div>
           <div className="button-submit">
-            <ButtonFull text="Enviar">
+            <ButtonFull text="Enviar" id="button-full-form">
               <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" />
             </ButtonFull>
           </div>
