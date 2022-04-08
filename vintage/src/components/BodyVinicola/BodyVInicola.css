@@ -96,13 +96,13 @@
 }
 
 .container-dois {
-  text-align: justify;
+  text-align: left;
   font-family: "Spartan";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-
+  white-space: normal;
   margin: 5vh 10vw;
 }
 
@@ -199,16 +199,83 @@
   background-color: transparent;
   color: #bdbdbc;
   margin-right: 5vw;
-
+  white-space: nowrap;
   margin-right: 30vw;
 }
 
 @media (max-width: 786px) {
-  .vinicola-inicio h2 {
+  .vinicola-inicio h2,
+  .eventos h2 {
     font-size: 14px;
   }
   .vinicola-info img {
     width: 100%;
     height: 50%;
+  }
+
+  .vinicola-info,
+  .vinicola-info-dois {
+    display: block;
+  }
+  .vinicola-info p,
+  .vinicola-info-dois p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 80%;
+    margin: 25px 0 0 50px;
+    height: 200px;
+  }
+
+  .vinicola-info-dois img {
+    position: static;
+  }
+
+  .visitacao h1,
+  .eventos h1 {
+    font-size: 22px;
+  }
+
+  .visitacao-container-um img {
+    height: 50%;
+  }
+
+  .container-um {
+    font-size: 18px;
+    width: 60%;
+    line-height: 25px;
+    margin: 10px;
+  }
+
+  .container-dois {
+    font-size: 14px;
+    width: 55%;
+    line-height: 25px;
+    margin: 10px;
+  }
+
+  .button-agende {
+    display: block;
+    left: -100%;
+    top: 20px;
+    width: 100%;
+  }
+
+  .button-agende p {
+    font-size: 14px;
+  }
+
+  .eventos-datas h2 {
+    font-size: 20px;
+  }
+
+  .detalhes-datas h3 {
+    font-size: 16px;
+  }
+
+  .button-detalhes {
+    padding: 5px;
+    position: relative;
+    left: 10%;
+    top: 5vh;
   }
 }

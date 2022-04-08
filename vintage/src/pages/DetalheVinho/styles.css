@@ -140,3 +140,72 @@
 .button a {
   text-decoration: none;
 }
+
+@media (max-width: 786px) {
+  .__Detalhes-vinho img {
+    height: 400px;
+    width: 126px;
+    left: 5vw;
+    top: -80vh;
+  }
+
+  .titulo h1 {
+    font-size: 18px;
+    left: 40vw;
+    top: -70.5vh;
+  }
+
+  .logo {
+    width: 50%;
+    top: -62vh;
+    left: 30%;
+  }
+
+  .prato svg {
+    width: 30px;
+  }
+
+  .__Detalhes-vinho h4 {
+    font-size: 12px;
+  }
+
+  .__Detalhes-vinho svg {
+    width: 20px;
+  }
+
+  .__Detalhes-vinho h5 {
+    font-size: 12px;
+  }
+
+  .__Detalhes-vinho h6 {
+    font-size: 10px;
+    width: 150%;
+  }
+
+  .infos {
+    display: block;
+    width: 40vw;
+    left: 40vw;
+    top: -110vh;
+    font-size: 16px;
+  }
+
+  .descricao {
+    top: -35vh;
+    left: 10vw;
+    height: 200px;
+  }
+
+  .harmonizacao {
+    display: block;
+    padding-top: 0;
+  }
+  .harmonizacoes {
+    left: 10%;
+    top: -30vh;
+  }
+
+  .button {
+    width: 50vw;
+  }
+}
