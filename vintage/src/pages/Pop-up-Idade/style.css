@@ -28,15 +28,16 @@
   font-size: 40px;
   font-weight: 400;
 }
+#container-popup h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
 #container-popup h3 {
   font-size: 16px;
   font-weight: 500;
   text-align: center;
 }
-#container-popup h2 {
-  font-size: 24px;
-  font-weight: 800;
-}
+
 #container-popup h4 {
   font-size: 24px;
   font-weight: 500;
@@ -54,4 +55,37 @@
   font-size: 1.2rem;
   font-weight: 700;
   border: 0;
+}
+
+@media (max-width: 786px) {
+  #container-popup {
+    width: 352px;
+    height: 352px;
+    padding: 2rem 1.5rem;
+  }
+  #container-popup img {
+    width: 70%;
+  }
+  #container-popup h1 {
+    font-size: 30px;
+    width: auto;
+  }
+  #container-popup h2 {
+    font-size: 16px;
+    width: 76%;
+  }
+  #container-popup h3 {
+    font-size: 12px;
+  }
+  #container-popup h4 {
+    font-size: 15px;
+  }
+  #container-popup div {
+    left: 5vw;
+  }
+  #container-popup button {
+    width: 5.5rem;
+    height: 1.75rem;
+    font-size: 0.6rem;
+  }
 }
