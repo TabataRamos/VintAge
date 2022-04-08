@@ -1,7 +1,7 @@
-import "./BodyVinicola.css";
-import Forms from "../Forms/Forms";
-import Line2 from "../Line2/Line2";
-import Title from "../Title/Title";
+import './BodyVInicola.css'
+import Forms from '../Forms/Forms'
+import Line2 from '../Line2/Line2'
+import Title from '../Title/Title'
 
 function BodyVinicola() {
   return (
@@ -16,7 +16,7 @@ function BodyVinicola() {
       </div>
       <div className="vinicola-info">
         <img
-          src={require("../../assets/images/vinicola-1.png")}
+          src={require('../../assets/images/vinicola-1.png')}
           alt="Foto da Vinícola"
         ></img>
 
@@ -39,7 +39,7 @@ function BodyVinicola() {
         <img
           className="img-end"
           alt="Foto da Vinícola"
-          src={require("../../assets/images/vinicola-2.png")}
+          src={require('../../assets/images/vinicola-2.png')}
         ></img>
       </div>
       <Line2 lineNumber="line-100"></Line2>
@@ -47,7 +47,7 @@ function BodyVinicola() {
         <h1>Visitação</h1>
         <div className="visitacao-container-um">
           <img
-            src={require("../../assets/images/vinicola-3.png")}
+            src={require('../../assets/images/vinicola-3.png')}
             alt="Foto da Vinícola"
           ></img>
 
@@ -57,12 +57,13 @@ function BodyVinicola() {
               vinho?
             </p>
             <p className="container-dois">
-              Nosso salão de jantar e jardim com vista para o vinhedo estão
-              abertos para visitação agendada.
+              Nosso salão de jantar e jardim com <br />
+              vista para o vinhedo estão abertos <br />
+              para visitação agendada.
             </p>
             <a href="#scroll">
               <button className="button-agende">
-                {" "}
+                {' '}
                 <p>Agende sua visita</p>
               </button>
             </a>
@@ -75,7 +76,7 @@ function BodyVinicola() {
           <img
             className="img-evento"
             alt="Foto da Vinícola"
-            src={require("../../assets/images/vinicola-4.png")}
+            src={require('../../assets/images/vinicola-4.png')}
           ></img>
           <h1>Eventos</h1>
           <h2>
@@ -106,7 +107,7 @@ function BodyVinicola() {
         <Forms imagem="visita"></Forms>
       </div>
     </div>
-  );
+  )
 }
 
-export default BodyVinicola;
+export default BodyVinicola

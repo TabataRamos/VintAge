@@ -58,3 +58,14 @@ p {
     transform: translate(0);
   }
 }
+
+@media (max-width: 786px) {
+  .__vinho {
+    margin-left: 20vw;
+    width: 50%;
+  }
+
+  .__catalogo h4 {
+    white-space: normal;
+  }
+}
