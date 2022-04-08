@@ -37,7 +37,7 @@
   color: #fff;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1024px) {
   .__ButtonOpen {
     margin: 12px 0;
   }

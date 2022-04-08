@@ -59,6 +59,17 @@ p {
   }
 }
 
+@media (max-width: 1024px) {
+  .__vinho {
+    margin-left: 5vw;
+    width: 20%;
+  }
+
+  .__catalogo h4 {
+    white-space: normal;
+  }
+}
+
 @media (max-width: 786px) {
   .__vinho {
     margin-left: 20vw;

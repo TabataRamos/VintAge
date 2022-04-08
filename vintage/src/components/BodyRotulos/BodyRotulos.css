@@ -51,7 +51,7 @@ ul li p::before {
   margin-right: 15vw;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1024px) {
   .__Rotulos-text p {
     font-size: 14px;
     line-height: 20px;

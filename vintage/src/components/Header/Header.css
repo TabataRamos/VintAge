@@ -49,7 +49,7 @@
   top: -5vh;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1024px) {
   .__header {
     background-image: url(/src/assets/images/logo-vermelha.png);
     background-repeat: no-repeat;

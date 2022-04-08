@@ -42,6 +42,8 @@ O site opera nas seguintes dimensões de telas:
 
 - 1280px;
 
+- 1024px;
+
 - 480px;
 
 - 375px.

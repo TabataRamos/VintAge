@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1024px) {
   .filtro-tipo {
     width: 50%;
     display: block;

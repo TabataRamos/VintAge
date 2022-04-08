@@ -141,6 +141,35 @@
   text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  .__Detalhes-vinho img {
+    height: 800px;
+    width: 256px;
+    left: 20vw;
+    top: -110vh;
+  }
+  .harmonizacoes {
+    left: 10%;
+    top: -30vh;
+    width: 50vw;
+  }
+
+  .infos {
+    display: block;
+    width: 40vw;
+    left: 40vw;
+    top: -110vh;
+  }
+
+  .titulo h1 {
+    font-size: 38px;
+  }
+
+  .button {
+    width: 50vw;
+  }
+}
+
 @media (max-width: 786px) {
   .__Detalhes-vinho img {
     height: 400px;
