@@ -1,8 +1,8 @@
-import Header from '../../components/Header/Header'
-import Banner from '../../components/Banner/Banner'
-import Body from '../../components/Body/Body'
-import BodyVInicola from '../../components/BodyVinicola/BodyVinicola'
-import Footer from '../../components/Footer/Footer'
+import Header from "../../components/Header/Header";
+import Banner from "../../components/Banner/Banner";
+import Body from "../../components/Body/Body";
+import BodyVInicola from "../../components/BodyVinicola/BodyVInicola";
+import Footer from "../../components/Footer/Footer";
 
 function Vinicola() {
   return (
@@ -17,7 +17,7 @@ function Vinicola() {
       <BodyVInicola />
       <Footer />
     </>
-  )
+  );
 }
 
-export default Vinicola
+export default Vinicola;
