@@ -8,16 +8,32 @@ export default function PopUpIdade() {
         <img src={require("../../assets/images/VintAge.png")} alt="logo"></img>
         <h1>Bem vindo</h1>
         <h3>
-          O nosso site é um “portfólio” de vinhos, para acessá-lo você deve ter a idade legal para
-          beber no seu país ou região de residência.
+          O nosso site é um “portfólio” de vinhos, para acessá-lo você deve ter
+          a idade legal para beber no seu país ou região de residência.
         </h3>
         <h2>Você tem mais de 18 anos?</h2>
         <div>
           <Link to="/home">
-            <button style={{ backgroundColor: "#64BC26", color: "#1A1A19" }}>Sim</button>
+            <button
+              style={{
+                backgroundColor: "#64BC26",
+                color: "#1A1A19",
+                cursor: "pointer",
+              }}
+            >
+              Sim
+            </button>
           </Link>
           <Link to="/aviso-idade">
-            <button style={{ backgroundColor: "#C03818", color: "#FCFBF8" }}>Não</button>
+            <button
+              style={{
+                backgroundColor: "#C03818",
+                color: "#FCFBF8",
+                cursor: "pointer",
+              }}
+            >
+              Não
+            </button>
           </Link>
         </div>
       </div>
